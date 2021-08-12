@@ -22,7 +22,7 @@
      <ul style="background:#540202;">
 	 <li style=" margin:-0.8vw 40vw; position:absolute;"><img src="./content/images/logo.png" height="110px" width="230px"></li>
 	  <li id="so" style=" margin:-1vw 0vw;"><span class="fa fa-bars" id="showMenu"></span></li>
-      <li style="margin:-1vw 0vw; float:left;"><a href="./index.php" style= ""><span class="fa fa-home" ></span></a></li>
+      <li style="margin:-1vw 0vw; float:left;"><a href="./index.html" style= ""><span class="fa fa-home" ></span></a></li>
 	 </ul>
 	 </div>
 			 
@@ -493,7 +493,7 @@
 				</div><!-- wrapper -->
 			</div><!-- /container -->
 			<nav class="outer-nav right vertical">
-				<a href="./index.php" >Home</a>
+				<a href="./index.html" >Home</a>
 				<a href="./about.php" >About</a>
 				<a href="./exercise.php">Exercise</a>
 				<a href="./bmi.php">Bmi</a>

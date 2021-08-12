@@ -28,7 +28,7 @@
 	 <li><a href="./bmi.php">BMI</a></li>
       <li><a href="#" style= "opacity:0.2;">EXERCISE</a></li>
       <li><a href="./about.php">ABOUT</a></li>
-      <li><a href="./index.php"><i class="fa fa-home" ></i>&nbsp;HOME</a></li>
+      <li><a href="./index.html"><i class="fa fa-home" ></i>&nbsp;HOME</a></li>
 	</ul>
 	 </div>
 	  
@@ -712,7 +712,7 @@ Learn how and when to train each trap region to ensure maximum development.</spa
 	 <p id="p2">&copy 2016 fitness first. All Rights Reserved.</p>
 	 <div class="fo-nav">
 	 <ul>
-	   <li><a href="./index.php">Home</a></li>
+	   <li><a href="./index.html">Home</a></li>
 	   <li><a href="./about.php">About</a></li>
 	   <li><a href="./exercise.php">Exercise</a></li>
 	   <li><a href="./bmi.php">Bmi</a></li>

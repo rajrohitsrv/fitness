@@ -7,7 +7,7 @@
 	
 	// if session is not set this will redirect to login page
 	if( !isset($_SESSION['user']) ) {
-		header("Location: ../index.php");
+		header("Location: ../index.html");
 		exit;
 	}
 	// select loggedin users detail
@@ -36,7 +36,7 @@
 	 <li style=" margin:-0.8vw 40vw; position:absolute;"><img src="../content/images/logo.png" height="110px" width="230px"></li>
 	  <li id="so" style=" margin:-1vw 0vw;"><span class="fa fa-bars" id="showMenu"></span></li>
 	 <li id="so" style=" margin:-1vw 20vw;"><span class="fa fa-user"></span>&nbsp;Hi'&nbsp;<?php echo $userRow['userName']; ?>&nbsp;<i class="fa fa-caret-down" id="myBtn"></i></li>
-      <li style="margin:-1vw 0vw; float:left;"><a href="../index.php" style= ""><span class="fa fa-home" ></span></a></li>
+      <li style="margin:-1vw 0vw; float:left;"><a href="../index.html" style= ""><span class="fa fa-home" ></span></a></li>
 	 </ul>
 	 </div>
 			 <div class="sob" id="myModal" style="margin:6.9vw 63vw;">
@@ -113,7 +113,7 @@ slowly lower your body to the starting position. A spotter can lift your legs sl
 	 <p id="p2" style="margin:15vw 0">&copy 2016 fitness first. All Rights Reserved.</p>
 	 <div class="fo-nav">
 	 <ul>
-	   <li><a href="../index.php">Home</a></li>
+	   <li><a href="../index.html">Home</a></li>
 	   <li><a href="../about.php">About</a></li>
 	   <li><a href="../exercise.php">Exercise</a></li>
 	   <li><a href="../bmi.php">Bmi</a></li>

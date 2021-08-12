@@ -6,7 +6,7 @@
 	
 	// if session is not set this will redirect to login page
 	if( !isset($_SESSION['user']) ) {
-		header("Location:../../index.php");
+		header("Location:../../index.html");
 		exit;
 	}
 	// select loggedin users detail
@@ -42,7 +42,7 @@ video::media-controls {
 	 <li style=" margin:-0.8vw 40vw; position:absolute;"><img src="../../content/images/logo.png" height="110px" width="230px"></li>
 	  <li id="so" style=" margin:-1vw 0vw;"><span class="fa fa-bars" id="showMenu"></span></li>
 	 <li id="so" style=" margin:-1vw 20vw;"><span class="fa fa-user"></span>&nbsp;Hi'&nbsp;<?php echo $userRow['userName']; ?>&nbsp;<i class="fa fa-caret-down" id="myBtn"></i></li>
-      <li style="margin:-1vw 0vw; float:left;"><a href="../../index.php" style= ""><span class="fa fa-home" ></span></a></li>
+      <li style="margin:-1vw 0vw; float:left;"><a href="../../index.html" style= ""><span class="fa fa-home" ></span></a></li>
 	 </ul>
 	 </div>
 			 <div class="sob" id="myModal" style="margin-left:63vw; margin-top:-6vw;  position:absolute">
