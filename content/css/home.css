@@ -1,0 +1,597 @@
+@import url("animation.css")screen;
+body, html{
+	
+	
+           height:100%; 
+           margin:0;
+		  
+     }
+	 body{
+		 overflow-x:hidden;
+		 overflow-y:auto;
+	 }
+.layer1
+{
+  background-image:url("../images/layer1.jpg");
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;  
+  background-size: cover;
+  min-height:100%;
+}
+.layer1 .ly-con1{
+    width:100%;
+	overflow:hidden;
+	top:6.8vw;
+	left:0;
+	height:95%;
+	position:fixed;
+	
+	
+}	
+
+#slider{
+             background:#000;
+             border: 1px solid #eaeaea;
+             box-shadow:1px 1px 5px rgba(0,0,0,0,7);
+             height:100vh;
+             width:100vw;
+             overflow:visible;
+             position:relative;
+             top:0;
+             left:0;
+			 
+			 
+}
+#mask{
+            overflow:hidden;
+             height:100%;
+}
+#slider ul{
+               margin:0;
+               padding:0;
+               position :relative;
+}
+#slider li{
+               width:100vw;
+               height:100vh;
+               position:absolute;
+               top:-325vw;
+               list-style:none;
+}
+#slider li.firstanimation{
+                                animation:cycle 40s linear infinite;
+                                -moz-animation:cycle 40s linear infinite;
+}    
+ #slider li.secondanimation{
+                                animation:cycletwo 40s linear infinite;
+                                -moz-animation:cycletwo 40s linear infinite;
+}  
+#slider li.thirdanimation{
+                                animation:cyclethree 40s linear infinite;
+                                -moz-animation:cyclethree 40s linear infinite;
+}   
+#slider li.fourthanimation{
+                                animation:cyclefour 40s linear infinite;
+                                -moz-animation:cyclefour 40s linear infinite;
+}
+#slider li.fifthanimation{
+                                animation:cyclefive 40s linear infinite;
+                                -moz-animation:cyclefive 40s linear infinite;
+}
+
+
+#slider .tooltip{
+	     background:rgba(0,0,0,0.7);
+		 top:-120%;
+		 width:100%;
+		 height:100vh;
+		 position:absolute;
+		 -moz-transition:all 1s ease-in-out;
+		 transition:all 1s ease-in-out;
+		 text-align:center;
+} 
+#slider .tooltip #hh{
+	       color:#fff;
+		   font-size:6vw;
+		   font-weight:300;
+		   margin:21vw 5vw;
+		   letter-spacing:1px;
+		   position:absolute;
+		   width:100%;
+		   text-shadow:5px 5px 10px grey;
+}
+#slider li#first:hover .tooltip,
+#slider li#second:hover .tooltip,
+#slider li#third:hover .tooltip,
+#slider li#fourth:hover .tooltip,
+#slider li#fifth:hover .tooltip{
+	                         top:0px;
+}
+
+#slider:hover li,
+#slider:hover .progress-bar{
+       -moz-animation-play-state:paused;
+         animation-play-state:paused;  
+}
+
+/*slider progress bar*/
+.progress-bar{
+                      position:relative;
+                      top:-100%;
+                      width:100%;
+                      height:0.4vw;
+                      background:#34495e;
+                      animation:fullexpand 40s ease-in-out infinite; 
+                  				  
+     
+}				   
+.remover1{
+     width:100%;
+     height:40vw;
+     background:white;
+     z-index:2;
+     position:relative;
+	overflow:hidden;
+}
+.remover1-content1{
+			   top:0;
+			   height:100%;
+			   width:50vw;
+			   position:absolute;
+			   background:url("../images/layer1-image.png") no-repeat ;
+			   background-position:-10% 0%;
+			   overflow:hidden;
+	
+			  			   
+}
+.remover1-content1 .p1{
+	               margin: 2vw 5vw;
+				   color:rgb(211, 77, 94);
+				   font-size:1vw;
+				   font-family:Montserrat;
+				   position:absolute;
+                   animation:p1 2s linear forwards;
+                   animation-play-state:paused;				   
+}
+.remover1-content1 #p2{
+	                margin:15vw 22vw;
+					color:#777;
+					font-size:1.9vw;
+					line-height:2vw;
+					position:absolute;
+					font-family:Montserrat;
+					width:25vw;
+					word-break:keep-all;
+					animation:p2 2s linear forwards;
+                    animation-play-state:paused;
+					}	
+.remover1-content1 #p3{
+	
+	                margin:10vw 3vw; 
+					color:black;
+					font-size:3vw;
+					font-weight:900;
+					letter-spacing:0.2vw;
+					font-family:Montserrat;
+					position:absolute;
+					animation:h1 2s linear forwards;
+                    animation-play-state:paused;
+                   }	
+.remover1-button{
+	           border:0.4vw outset rgb(0, 200, 214);
+			   position:absolute;
+			   top:90%;
+			   left:15vw;
+			   height:5vw;
+			   width:20vw;
+			   cursor:pointer;
+			   animation:button1 2s linear forwards;
+               animation-play-state:paused;
+			   text-align:center;
+			   transition-duration:0.3s;
+}
+.remover1-button a {
+	            color:rgb(0, 200, 214);
+				text-decoration:none;
+				font-size:1.5vw;
+				font-weight:300;
+				font-family:Montserrat;
+                padding:0;
+                margin:0;
+                display:inline;	
+               text-align:center;	
+			   transition-duration:0.3s;
+           			   
+}
+.remover1-button:hover
+{
+	             background:rgb(0, 200, 214);
+				
+}
+.remover1-button:hover.remover1-button a{
+	                color:white;
+}
+.remover1:hover .remover1-content1 .p1,
+.remover1:hover .remover1-content1 #p2,
+.remover1:hover .remover1-content1 #p3,
+.remover1:hover .remover1-button 
+                   {
+	                 animation-play-state:running;
+				   }
+.remover1-content2{
+			   top:0;
+			   position:absolute;
+			   width:50vw;
+			   height:100%;
+			   left:50vw;
+			   background:url("../images/layer1-image2.png")  no-repeat; 
+			   background-position: 10% 190%;
+			    background-size: auto 30vw;
+			   animation:layer1 2s linear forwards;
+			   animation-play-state:paused;
+			   overflow:hidden;
+			 
+			   }
+
+ .remover1-content2 #heading{
+	                 margin:2vw 10vw;
+					 font-size:2vw;
+					 position:absolute;
+					 letter-spacing:0.1vw;
+					 color:#333;
+					 
+  }		
+
+.remover1:hover .remover1-content2{
+	            animation-play-state:running;
+}		
+		
+.remover1-content2 #h1,
+ .remover1-content2 #h2,
+ .remover1-content2 #h3 {
+					color:black;
+					font-size:2vw;
+					position:absolute;
+					font-family:Montserrat;
+				    letter-spacing:-0.1vw;		
+ }
+  .remover1-content2 #h1{
+             		  margin:7vw 10vw;
+  }
+   .remover1-content2 #h2{
+	                   margin:20vw 10vw;
+   
+ }
+   .remover1-content2 #h3{
+	                 padding:30vw 10vw;
+   }		
+   
+ .remover1-content2 #p1,
+ .remover1-content2 #p2,
+ .remover1-content2 #p3{
+					color:#777;
+					font-size:1.4vw;
+					line-height:1.5vw;
+					position:absolute;
+					font-family:Montserrat;
+					width:30vw;
+					word-break:keep-all;
+ }
+.remover1-content2 #p1{
+                   margin:11vw 11vw;
+ }
+.remover1-content2 #p2{
+	                 margin:24vw 11vw;
+ }
+ .remover1-content2 #p3{
+	                 margin:34.2vw 11vw;
+  }
+   .layer2{
+      background-image:url("../images/edd.jpg");
+      background-position:center;
+	  background-attachment: fixed;
+      background-repeat: no-repeat;  
+      background-size: cover;
+      min-height:100%;
+      z-index:1;
+	  position:relative;
+	  
+	}
+ .layer2 .container2{
+      width:100%;
+      height:95%;
+	  top:6.8vw;
+	  overflow:hidden;
+	  position:absolute;
+	 
+	 }
+ .layer2 .wrapper1{
+	 width:100%;
+     height:100%;
+	 top:0;
+	 left:0;
+     position:relative;
+	 overflow:hidden;
+	
+}	
+ .box1,
+.box2,
+.box3
+      {
+	  width:30vw;
+	  height:100%;
+      top:0px;
+      position:absolute;
+	  transition: width 0.2s, height 0.4s;
+      opacity:1;
+	  text-align:center;
+}
+.box1{
+	left:5vw;
+	background:url("../images/box1.jpg") no-repeat; 
+    background-size:100% 100%;
+	background-position:center;
+}
+.box2{
+	left:35vw;
+	background:url("../images/box2.jpg") no-repeat; 
+    background-size:100% 100%;
+	background-position:center;
+}
+.box3{
+	left:65vw;
+	background:url("../images/box3.jpg") no-repeat; 
+    background-size:100% 100%;
+	background-position:center;
+}
+.box1:hover,
+.box2:hover,
+.box3:hover{
+	      width:30.8vw;
+		  height:100%;
+		  background-size:100% 100%;
+		  z-index:1;
+		  box-shadow: 10px 10px 5px grey;
+		  top:0px;
+		  position:absolute;
+}
+.box1 .button1,
+.box2 .button2,
+.box3 .button3
+           {
+	        border-radius: 1vw 5vw;
+	        border:0.2vw solid white;
+			position:absolute;
+			height:4vw;
+			width:12vw;
+			top:65vh;
+			left:10vw;
+	        overflow:hidden;
+			text-align:center;
+}
+.box1 .button1:hover,
+.box2 .button2:hover,
+.box3 .button3:hover
+               {
+	            background:white;
+			   }
+.box1 .button1 a,
+.box2 .button2 a,
+.box3 .button3 a{
+	           
+	             color:black;
+				 font-family:"Open Sans",Helvetica,Arial,sans-serif;
+				 font-size:1.2vw;
+				 text-align:center;
+                 text-decoration:none;	
+                 top:1.2vw;
+				 position:relative;
+                
+}				   
+.box1  h1,
+.box2  h1,
+.box3  h1{  	color:white;
+				font-family:"Open Sans",Helvetica,Arial,sans-serif;
+				font-size:2vw;
+			    letter-spacing:0.1vw;	
+                 position:relative;	
+                 top:12vw;				 
+}
+.box1 p,
+.box2 p,
+.box3 p
+       {
+        color:rgb(255, 255, 255);
+		font-size:1.6vw;
+		line-height:20px;
+		position:relative;
+		font-family:Montserrat;
+		word-break:keep-all; 
+         top:15vw;		
+	   }
+.remover2,
+.remover3{
+	width:100%;
+	position:relative;
+	z-index:2;
+	
+}
+.remover2{
+	
+	height:15vw;
+	background:#e9b3ff;
+}
+.remover3{
+	height:35vw;
+	background:rgb(211, 77, 94);
+	text-align:center;
+}
+.layer3
+{
+  background-image:url("../images/layer3.jpg");
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;  
+  background-size: cover;
+  min-height:50%;
+  z-index:1;
+  text-align:center;
+}	
+.layer3 #movti{
+      width:100%;
+      height:20vw;
+	  overflow:visible;
+	  position:relative;
+	  top:2vw;
+	 
+}
+#maskmoti{
+              overflow:hidden;
+              height:100%;
+			  
+}
+#movti ul{
+               margin:0;
+               padding:0;
+			   position :relative;
+}
+#movti li{
+               width:100%;
+               height:100%;
+               position:relative;
+               right:-100%;
+               list-style:none;
+			   color:white;
+			   font-size:1vw;
+}
+#movti li.firstanimation{
+	
+                                animation:motivational-cycle 40s linear infinite;
+                                -moz-animation:motivational-cycle 40s linear infinite;
+}    
+ #movti li.secondanimation{
+                                animation:motivational-cycletwo 40s linear infinite;
+                                -moz-animation:motivational-cycletwo 40s linear infinite;
+}  
+#movti li.thirdanimation{
+                                animation:motivational-cyclethree 40s linear infinite;
+                                -moz-animation:motivational-cyclethree 40s linear infinite;
+}   
+#movti li.fourthanimation{
+                                animation:motivational-cyclefour 40s linear infinite;
+                                -moz-animation:motivational-cyclefour 40s linear infinite;
+}
+#movti li.fifthanimation{
+                                animation:motivational-cyclefive 40s linear infinite;
+                                -moz-animation:motivational-cyclefive 40s linear infinite;
+}
+#movti li:nth-child(1){
+	margin:7vw 0;
+}
+#movti li:nth-child(2){
+	margin:-12vw 0;
+}
+#movti li:nth-child(3){
+	margin:6vw 0;
+}
+.remover3 .wrapper2{
+	           top:0;
+			   left:0;
+			   height:100%;
+			   width:100%;
+			   position:absolute;
+			   text-align:center;
+			
+}
+.remover3 .rec{
+	         width:30vw;
+			 position:absolute;
+			 height:100%;
+			 overflow:hidden;
+			 top:0;
+			 text-align:center;
+			 
+			 
+}
+.remover3 .rec:nth-child(1) {
+  left:15vw;
+  
+}
+.remover3 .rec:nth-child(2) {
+  left:60vw;
+}
+.rec #cir{
+	height:16vw;
+	width:16vw;
+	border:0.2vw solid black;
+	position:absolute;
+	border-radius:8vw;
+	margin:15vw 6vw;
+	animation:allcir 1s linear forwards;
+    animation-play-state:paused;
+	opacity:0;
+}
+.remover3:hover .rec #cir{
+	           animation-play-state:running;
+}
+.rec #but
+     {
+	  bottom:2vw;
+	  height:4vw;
+	  width:15vw;
+	  position:absolute;
+	  overflow:hidden;
+	  left:21%;
+	  transition-duration:0.6s;
+}
+.rec #but:hover{
+	  background:rgba(0,0,0,0.7);
+}
+.rec h1{
+	    font-size:2vw;
+		width:100%;
+		margin:16.5vw 0;
+		text-transform:uppercase;
+}
+.rec #but a{
+	    font-size:1vw;
+		width:100%;
+		text-transform:uppercase;
+		margin:1.5vw -7vw;
+		color:black;
+		text-decoration:none;
+		position:absolute;
+}
+.rec #but:hover#but a{
+	color:#fff;
+}
+.rec p{
+	         color:#333;
+			 font-family:Montserrat;
+			 position:absolute;
+			 text-align:center;
+			 font-size:1.7vw;
+		     width:100%;
+			 margin:20vw 0;
+}
+.layer4
+  {
+  background-image:url("../images/la3.jpg");
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;  
+  background-size: cover;
+  min-height:30%;
+  z-index:1;
+  }
+  .layer4 .con{
+	 height:100%;
+	 width:100%;
+	 position:absolute;
+	 background:#333;
+	 opacity:0.8;
+ }

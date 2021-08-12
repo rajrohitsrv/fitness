@@ -1,0 +1,75 @@
+.nav ul,
+.nav2 ul{
+	
+         list-style-type:none;
+         margin:0;
+         padding:0;
+         overflow:hidden;
+         background-color:#333;
+         position:fixed;
+         top:0;
+         left:0;
+         height:6.8vw;
+         width:100%;
+		 z-index:4;
+		
+  }
+ .nav ul li,
+ .nav2 ul li{
+           float:right;
+		    text-align:center;
+            }
+
+.nav ul li a,
+.nav ul li#so,
+.nav2 ul li a,
+.nav2 ul li#so{
+             display:block;
+             color:white;
+             text-align:center;
+             padding:2.5vw 2vw 7vw 3vw;
+             text-decoration:none;
+			 transition-duration:0.4s;'
+			 font-family:1.2vw;
+              
+			
+}
+   .nav2 ul li span{
+	   font-size:4vw;
+   }         
+.nav ul li a:hover{
+                   background-color:#111;
+				   box-shadow:0 1vw 1.6vw 0 rgba(0,0,0,0.24), 0 1vw 5vw 0 rgba(0,0,0,0.19);
+                   }
+	
+.nav2 ul li a:hover,
+.nav2 ul li span:hover{
+	color:#111;
+}
+	
+.sob{
+	width:15vw;
+	background:#fff;
+	position:fixed;
+	margin:6.8vw 85vw;
+	box-shadow: 2px 2px 4px #333;
+    display:none;	
+	border-radius:0 0 2px 2px;	
+	transition-duration:0.4s;
+	z-index:12;
+cursor:pointer;
+
+}
+.sob:hover{
+	background-color:#e96e4f;
+	opacity:0.7;
+	box-shadow:0 0.2vw 0.6vw 0 grey;
+}
+.sob a{
+	color:#111;
+	margin:0 1vw;
+	font-size:2vw;
+	display:inline;
+	text-decoration:none;
+	
+}			   

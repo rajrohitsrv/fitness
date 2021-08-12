@@ -1,0 +1,70 @@
+
+.container,
+.wrapper{
+ position: relative;
+  background-attachment: fixed;
+  background-position:center;
+  background-repeat: no-repeat;  
+  background-size: cover;
+  min-height:100%;
+  background-image:url("../images/about_1.jpg")
+}
+
+.effect-rotateleft.animate .outer-nav a:nth-child(2){
+
+}
+
+.container .container1{
+	height:85.9%;
+	width:100%;
+	overflow:hidden;
+	top:6.8vw;
+	background:#333;
+	opacity:0.9;
+	position:fixed;
+	text-align:center;
+}
+
+.wrapper h1,
+.wrapper #p1{
+	 
+	 position:absolute;
+	 font-family:ProximaNovaExCnBold;
+	 }
+	 
+.wrapper h1{
+	color:#43DFF7;
+	text-shadow:2px 2px 4px #43DFF7;
+	width:100%;
+	font-size:3.3vw;
+	text-transform:uppercase;
+}
+.wrapper #p1{
+	color:#FAF3BC;
+	font-size:1.8vw;
+	width:1000px;
+	margin:-15vw 24vw;
+}
+
+.wrapper .cir{
+	height:18vw;
+	width:18vw;
+	border-radius:9vw;
+	margin:6% 2%;
+	border:0.2vw solid black;
+	background-color:#333;
+	background:url("../images/logo.png") no-repeat;
+	background-size:cover;
+	background-position:center;
+}
+/*removers*/
+.remover1{
+	height:350px;
+	width:100%;
+	position:relative;
+	z-index:2;
+	overflow-y:visible;
+	overflow:hidden;
+	background:url("./images/about_2.jpg") no-repeat;
+	background-size:cover;
+	}

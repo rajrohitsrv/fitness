@@ -1,0 +1,38 @@
+.wrapper h1{
+	text-align:ceinter;
+	color:#43DFF7;
+	font-size:3vw;
+	margin-top:6.9vw;
+
+}
+#con2{
+	background:#333;
+}
+.wrapper p,
+.wrapper p2{
+	text-align:ceinter;
+	color:#FAF3BC;
+	font-size:2vw;
+	z-index:2;
+	font-weight:500;
+	
+}
+.wrapper p{
+	margin-top:3vw;
+}
+.wrapper #p2{
+	margin-left: 2vw;
+	line-height:3vw;
+	position:absolute;
+	text-align:left;
+}
+.wrapper .wrap{
+min-height:500%;
+width:100%;
+background:#333;
+position:absolute;
+border:2px solid red;	
+margin-top:-9.5vw;
+opacity:0.6;
+display:none;
+}

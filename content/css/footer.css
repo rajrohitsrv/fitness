@@ -1,0 +1,88 @@
+@import url("animation.css")screen;
+
+
+.footer,
+.footer2{
+	position:relative;
+	height:20vw;
+	 width:100%;
+	 z-index:2;
+	 overflow:hidden;
+	 background:url("../images/footer.jpg") no-repeat;
+	 background-size:20% 20%;
+	 background-position:center;
+	 animation:footer 0.6s linear forwards;
+	 animation-play-state:paused;
+	 background-color:#540202;
+}
+
+.footer:hover{
+	animation-play-state:running;
+}
+.fo-wrapper{
+	position:absolute;
+	height:100%;
+	width:100%;
+	overflow:hidden;
+	background-color:#540202;
+	opacity:0.6;
+	animation:fo 0.6s linear forwards;
+	animation-play-state:paused;
+	text-align:center;
+}
+ 
+ .fo-wrapper:hover{
+	 animation-play-state:running;
+ }
+ 
+.fo-wrapper .fo-nav ul{
+	    list-style-type:none;
+         margin:0;
+         padding:0;
+         position:absolute;
+         bottom:7vw;
+         height:30%;
+		 overflow:visible;
+         width:50%;
+		 text-align:center;
+		 left:35%;
+}
+.fo-nav ul li{
+	float:left;
+}
+.fo-nav ul li a{
+	         display:inline-block;
+             color:white;
+             text-align:center;
+             text-decoration:none;
+			 transition-duration:0.4s;
+			 padding:3vw 1vw 3vw 2vw;
+			 font-size:1.5vw;
+ }
+ .fo-nav ul li a:hover{
+  color: #e7d79f;
+ text-shadow:0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19); 
+ }
+ 
+ .fo-wrapper h1{
+	 color:#f8fc83;
+	 font-size:2vw;
+	 text-align:left;
+	 margin:1.5vw 3vw;
+ }
+
+.fo-wrapper #p1,
+.fo-wrapper #p2{
+	color:#fff;
+}
+.fo-wrapper #p1{
+	font-size:1.5vw;
+	text-align:left;
+	margin:2.5vw 2vw;
+}
+.fo-wrapper #p2{
+	font-size:1.8vw;
+	text-align:center;
+     margin:1.2vw 0;
+	word-spacing:0.1vw;
+}

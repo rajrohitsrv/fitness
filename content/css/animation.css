@@ -1,0 +1,372 @@
+
+@keyframes  square{
+	 form{ bottom:-40%;}
+	 to{ bottom:120%; transform:rotate(-200deg);}
+ }
+ @keyframes lo{
+	0%{  transform: rotateY(-360deg);}
+	50%{ transform: rotateY(-180deg);}
+	100%{ transform: rotateY(0deg);}
+ }
+ 
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+@-moz-keyframes cycle {
+	
+                                                                               0%  { top:0vh; }
+
+                                                                          	4%  { top:0vh; } 
+                                                                             
+	16% { top:0vh; opacity:1; z-index:0; } 
+                                                                             
+	20% { top:325px; opacity:0; z-index:0; } 
+ 
+                                                                        	21% { top:-325vh; opacity:0; z-index:-1; }
+ 
+                                                                            	92% { top:-325vh; opacity:0; z-index:0; }
+	 
+                                                                                 96% { top:-325vh; opacity:0; }
+                                                                             
+	100%{ top:0vh; opacity:1; }
+ 
+                                                                          	
+} 
+
+@-moz-keyframes cycletwo {
+	
+                                                0%  { top:-325vh; opacity:0; }
+                                          
+	16% { top:-325vh; opacity:0; }
+	 
+                                                 20% { top:0vh; opacity:1; }
+	
+                                                  24% { top:0vh; opacity:1; } 
+                                             
+	36% { top:0vh; opacity:1; z-index:0; } 
+                                              
+	40% { top:325px; opacity:0; z-index:0; }
+	
+                                                  41% { top:-325vh; opacity:0; z-index:-1; } 
+
+                                             	100%{ top:-325vh; opacity:0; z-index:-1; }
+
+                                                       }
+
+@-moz-keyframes cyclethree {
+
+                                	0%  { top:-325vh; opacity:0; }
+                                        
+	36% { top:-325vh; opacity:0; }
+	
+                                                40% { top:0vh; opacity:1; }
+                                         
+	44% { top:0vh; opacity:1; } 
+
+                                            	56% { top:0vh; opacity:1; } 
+
+                                        	60% { top:325px; opacity:0; z-index:0; }
+                                          
+	61% { top:-325vh; opacity:0; z-index:-1; } 
+                                       
+	100%{ top:-325vh; opacity:0; z-index:-1; }
+                                                    
+}
+
+@-moz-keyframes cyclefour {
+
+                                           	0%  { top:-325vh; opacity:0; }
+	
+                                                  56% { top:-325vh; opacity:0; }
+
+                                      	60% { top:0vh; opacity:1; }
+                                       
+	64% { top:0vh; opacity:1; }
+                                             
+	76% { top:0vh; opacity:1; z-index:0; }
+
+                                     	80% { top:325px; opacity:0; z-index:0; }
+	
+                                               81% { top:-325vh; opacity:0; z-index:-1; }
+                                  
+	100%{ top:-325vh; opacity:0; z-index:-1; }
+
+                                                         } 
+
+@-moz-keyframes cyclefive {
+                                
+	0%  { top:-325vh; opacity:0; }
+                                        
+	76% { top:-325vh; opacity:0; }
+                                         
+	80% { top:0vh; opacity:1; }
+                                        
+	84% { top:0vh; opacity:1; }
+                                        
+	96% { top:0vh; opacity:1; z-index:0; }
+                                     
+	100%{ top:325px; opacity:0; z-index:0; }
+
+                                           }
+
+
+
+@keyframes cycle {
+	
+                                                                               0%  { top:0vh; }
+
+                                                                          	4%  { top:0vh; } 
+                                                                             
+	16% { top:0vh; opacity:1; z-index:0; } 
+                                                                             
+	20% { top:325px; opacity:0; z-index:0; } 
+ 
+                                                                        	21% { top:-325vh; opacity:0; z-index:-1; }
+ 
+                                                                            	92% { top:-325vh; opacity:0; z-index:0; }
+	 
+                                                                                 96% { top:-325vh; opacity:0; }
+                                                                             
+	100%{ top:0vh; opacity:1; }
+ 
+                                                                          	
+} 
+
+@keyframes cycletwo {
+	
+                                                0%  { top:-325vh; opacity:0; }
+                                          
+	16% { top:-325vh; opacity:0; }
+	 
+                                                 20% { top:0vh; opacity:1; }
+	
+                                                  24% { top:0vh; opacity:1; } 
+                                             
+	36% { top:0vh; opacity:1; z-index:0; } 
+                                              
+	40% { top:325px; opacity:0; z-index:0; }
+	
+                                                  41% { top:-325vh; opacity:0; z-index:-1; } 
+
+                                             	100%{ top:-325vh; opacity:0; z-index:-1; }
+
+                                                       }
+
+@keyframes cyclethree {
+
+                                	0%  { top:-325vh; opacity:0; }
+                                        
+	36% { top:-325vh; opacity:0; }
+	
+                                                40% { top:0vh; opacity:1; }
+                                         
+	44% { top:0vh; opacity:1; } 
+
+                                            	56% { top:0vh; opacity:1; } 
+
+                                        	60% { top:325px; opacity:0; z-index:0; }
+                                          
+	61% { top:-325vh; opacity:0; z-index:-1; } 
+                                       
+	100%{ top:-325vh; opacity:0; z-index:-1; }
+                                                    
+}
+
+@keyframes cyclefour {
+
+                                           	0%  { top:-325vh; opacity:0; }
+	
+                                                  56% { top:-325vh; opacity:0; }
+
+                                      	60% { top:0vh; opacity:1; }
+                                       
+	64% { top:0vh; opacity:1; }
+                                             
+	76% { top:0vh; opacity:1; z-index:0; }
+
+                                     	80% { top:325px; opacity:0; z-index:0; }
+	
+                                               81% { top:-325vh; opacity:0; z-index:-1; }
+                                  
+	100%{ top:-325vh; opacity:0; z-index:-1; }
+
+                                                         } 
+
+@keyframes cyclefive {
+                                
+	0%  { top:-325vh; opacity:0; }
+                                        
+	76% { top:-325vh; opacity:0; }
+                                         
+	80% { top:0vh; opacity:1; }
+                                        
+	84% { top:0vh; opacity:1; }
+                                        
+	96% { top:0vh; opacity:1; z-index:0; }
+                                     
+	100%{ top:325px; opacity:0; z-index:0; }
+
+                                           }
+
+
+
+@-moz-keyframes fullexpand {
+ 
+                                                 0%, 20%, 40%, 60%, 80%, 100% { width:0%; opacity:0; }
+  
+                                                   4%, 24%, 44%, 64%, 84% { width:0%; opacity:0.3; }
+  
+                                                 16%, 36%, 56%, 76%, 96% { width:100%; opacity:0.7; }
+   
+                                                   17%, 37%, 57%, 77%, 97% { width:100%; opacity:0.3; }
+ 
+                                                   18%, 38%, 58%, 78%, 98% { width:100%; opacity:0; }	 
+
+}
+
+@keyframes fullexpand {
+ 
+                                                 0%, 20%, 40%, 60%, 80%, 100% { width:0%; opacity:0; }
+  
+                                                   4%, 24%, 44%, 64%, 84% { width:0%; opacity:0.3; }
+  
+                                                 16%, 36%, 56%, 76%, 96% { width:100%; opacity:0.7; }
+   
+                                                   17%, 37%, 57%, 77%, 97% { width:100%; opacity:0.3; }
+ 
+                                                  18%, 38%, 58%, 78%, 98% { width:100%; opacity:0; }	  	
+
+}
+@keyframes p1{
+	          from{margin:2vw 5vw;}
+			  to{margin:5vw 5vw;}
+}
+@keyframes h1{
+	           from{margin:10vw 3vw;}
+			   to{margin:10vw 5vw;}
+}
+@keyframes p2{
+	          from{margin:15vw 22vw;}
+			  to{margin:15vw 5vw;}
+}
+@keyframes button1{
+	
+	
+	               from{ top:90%;}
+				   to{top:80%;}
+}
+@keyframes layer1{
+	                 form{background-position:10% 190%;}
+					 to{background-position:10% 70%;}
+}
+@keyframes motivational-cycle {
+	
+                                                                               0%  { right:0px; }
+
+                                                                          	4%  { right:0px; } 
+                                                                             
+	16% { right:0px; opacity:1; z-index:0; } 
+                                                                             
+	20% { right:100%; opacity:0; z-index:0; } 
+ 
+                                                                        	21% { right:-100%; opacity:0; z-index:-1; }
+ 
+                                                                            	92% { right:-100%; opacity:0; z-index:0; }
+	 
+                                                                                 96% { right:-100%; opacity:0; }
+                                                                             
+	100%{ right:0px; opacity:1; }
+ 
+                                                                          	
+} 
+
+@keyframes motivational-cycletwo {
+	
+                                                0%  { right:-100%; opacity:0; }
+                                          
+	16% { right:-100%; opacity:0; }
+	 
+                                                 20% { right:0px; opacity:1; }
+	
+                                                  24% { right:0px; opacity:1; } 
+                                             
+	36% { right:0px; opacity:1; z-index:0; } 
+                                              
+	40% { right:100%; opacity:0; z-index:0; }
+	
+                                                  41% { right:-100%; opacity:0; z-index:-1; } 
+
+                                             	100%{ right:-100%; opacity:0; z-index:-1; }
+
+                                                       }
+
+@keyframes motivational-cyclethree {
+
+                                	0%  { right:-100%; opacity:0; }
+                                        
+	36% { right:-100%; opacity:0; }
+	
+                                                40% { right:0px; opacity:1; }
+                                         
+	44% { right:0px; opacity:1; } 
+
+                                            	56% { right:0px; opacity:1; } 
+
+                                        	60% { right:100%; opacity:0; z-index:0; }
+                                          
+	61% { right:-100%; opacity:0; z-index:-1; } 
+                                       
+	100%{ right:-100%; opacity:0; z-index:-1; }
+                                                    
+}
+
+@keyframes motivational-cyclefour {
+
+                                           	0%  { right:-100%; opacity:0; }
+	
+                                                  56% { right:-100%; opacity:0; }
+
+                                      	60% { right:0px; opacity:1; }
+                                       
+	64% { right:0px; opacity:1; }
+                                             
+	76% { right:0px; opacity:1; z-index:0; }
+
+                                     	80% { right:100%; opacity:0; z-index:0; }
+	
+                                               81% { right:-100%; opacity:0; z-index:-1; }
+                                  
+	100%{ right:-100%; opacity:0; z-index:-1; }
+
+                                                         } 
+
+@keyframes motivational-cyclefive {
+                                
+	0%  { right:-100%; opacity:0; }
+                                        
+	76% { right:-100%; opacity:0; }
+                                         
+	80% { right:0px; opacity:1; }
+                                        
+	84% { right:0px; opacity:1; }
+                                        
+	96% { right:0px; opacity:1; z-index:0; }
+                                     
+	100%{ right:100%; opacity:0; z-index:0; }
+
+                                           }
+ @keyframes allcir{
+	       from{ margin:15vw 6vw; opacity:0;}
+		   to{ margin:0.2vw 6vw; opacity:1;}
+}
+@keyframes footer{
+	0%{ background-size:20% 20%; }
+	50%{ background-size:50% 50%;}
+	100%{ background-size:100% 100%;}
+}
+@keyframes fo{
+	0%{ opacity:1;}
+	50%{ opacity:0.6;}
+	100%;{ opacity:0.6;}
+}

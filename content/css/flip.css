@@ -1,0 +1,58 @@
+
+.cardl {
+  position:absolute;
+  float: left;
+  width: 30%;
+  height:60%;
+  text-align: center;
+  opacity:0.6;
+  top:10px
+}
+
+.cardl:nth-child(1) {
+  left:15px;
+}
+
+.cardl:nth-child(2) {
+  left:35%;
+}
+.cardl:nth-child(3)
+{
+	left:68%;
+}
+/* card fronts and backs */
+.cardl__front,
+.cardl__back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.cardl__front,
+.cardl__back {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-transition: -webkit-transform 0.3s;
+          transition: transform 0.3s;
+		  background-color: #1e1e1e;
+}
+
+
+.cardl__back {
+  -webkit-transform: rotateY(-180deg);
+          transform: rotateY(-180deg);
+}
+
+/* random effect */
+.cardl.effect__random.flipped .cardl__front {
+  -webkit-transform: rotateY(-180deg);
+          transform: rotateY(-180deg);
+}
+
+
+.cardl.effect__random.flipped .cardl__back {
+  -webkit-transform: rotateY(0);
+          transform: rotateY(0);
+}
